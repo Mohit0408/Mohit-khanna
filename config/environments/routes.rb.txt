@@ -1,0 +1,18 @@
+Rails.application.routes.draw do
+
+get "fitness/contacts"
+# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
+Get "fitness/contacts"
+Post "fitness/contacts"
+Get "fitness/nutrition"
+Post "fitness/nutrition"
+Get "fitness/timetable"
+Post "fitness/timetable"
+Get "fitness/trainings"
+Post "fitness/trainings"
+Get "fitness/login"
+Post "fitness/login"
+Get "fitness/register"
+Post "fitness/register"
+

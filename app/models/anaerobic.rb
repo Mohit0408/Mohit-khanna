@@ -1,0 +1,2 @@
+class Anaerobic < ApplicationRecord
+end

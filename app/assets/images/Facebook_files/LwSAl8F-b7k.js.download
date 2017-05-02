@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["G9l17"]); }
+
+__d('VideoPivotsRegister',['Arbiter','AttachmentRelatedShareConstants','destroyOnUnload','SubscriptionsHandler'],(function a(b,c,d,e,f,g){var h={registerVideoUnit:function i(j,k){var l=0,m=new (c('SubscriptionsHandler'))(),n=function o(){return m.release();};m.addSubscriptions(j.addListener('updateStatus',function(o){if(l<k&&o.position>=k){c('Arbiter').inform(c('AttachmentRelatedShareConstants').FBVIDEO_VIEW,{fbvideo_id:j.getVideoID(),attachment:j.getRootNode()});n();}l=o.position;}));c('destroyOnUnload')(n);}};f.exports=h;}),null);
+__d("XAtWorkAdminPanelController",["XController"],(function a(b,c,d,e,f,g){f.exports=c("XController").create("\/work\/admin\/",{ref:{type:"Enum",enumType:1},section:{type:"Enum",enumType:1}});}),null);
